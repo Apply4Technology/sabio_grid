@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    wise_grid (0.1.0)
+    wise_grid (0.0.1)
 
 GEM
   remote: https://rubygems.org/

@@ -6,6 +6,6 @@ RSpec.describe WiseGrid do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    expect(WiseGrid.generate).to eq("Grid generated!")
   end
 end
