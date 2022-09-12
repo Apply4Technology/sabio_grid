@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module WiseGrid
+module WiceGrid
   # Generates the grid view.
   class Grid
     def generate

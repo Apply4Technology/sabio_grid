@@ -1,15 +1,15 @@
 # frozen_string_literal: true
 
-require_relative "lib/wise_grid/version"
+require_relative "lib/wice_grid/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "wise_grid"
-  spec.version = WiseGrid::VERSION
+  spec.name = "wice_grid"
+  spec.version = WiceGrid::VERSION
   spec.authors = ["Apply4"]
   spec.email = ["miron@secret-source.eu"]
 
   spec.summary = "Grid views for Rails."
-  spec.homepage = "https://github.com/Apply4Technology/wise_grid"
+  spec.homepage = "https://github.com/Apply4Technology/wice_grid"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 

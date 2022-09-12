@@ -5,7 +5,7 @@ loader = Zeitwerk::Loader.for_gem
 loader.setup
 
 # Grid views for Rails.
-module WiseGrid
+module WiceGrid
   class Error < StandardError; end
 
   def self.generate
