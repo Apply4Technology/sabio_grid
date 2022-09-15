@@ -8,6 +8,11 @@ loader.setup
 module SabioGrid
   class Error < StandardError; end
 
+  module WiceGridExtentionToActiveRecordColumn #:nodoc:
+    # reference to the ActiveRecord model class
+    attr_accessor :model
+  end
+
   def self.generate
     Grid.new.generate
   end
